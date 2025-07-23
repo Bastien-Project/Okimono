@@ -1,65 +1,34 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8"/>
-		<title>Okimono</title>    
-		
-		<link rel="stylesheet" media="screen" href="../styleee.css" type="text/css"/>
-		<script src="https://kit.fontawesome.com/3cff230019.js" crossorigin="anonymous">
-        </script>
-    </head>
+<?php include('./header.php'); ?>
 
-	<body id="contenu">
+<h1>MENTIONS LÉGALES</h1>
 
-		<nav>
-			<h1><a href="../index.html">Okimono 置物</a></h1>
-            <a class= "nav-open" href= "#contenu" > <i class="fas fa-bars"></i> </a>
-			<a class= "nav-close" href= "#" > <i class="fas fa-times"></i> </a>
-			<div class="onglets">
-				<p class ="link"><a href="../index.html">Accueil</a></p>
-				<p class ="link"><a href="sape1.html">Vêtements</a></p>
-				<p class ="link"><a href="figurine1.html">Figurines</a></p>
-				<p class ="link"><a href="accessoires1.html">Accessoires</a></p>
-				<p class ="link"><a href="accessoires1.html">Imprimante 3D</a></p>
-				<p class ="link"><a href="contact.html">Contact</a></p>
-				<form>
-					<input type="search" placeholder="Rechercher">
-				</form>
-				<p><i class="far fa-heart"></i></p>
-				<p><i class="fas fa-shopping-cart"></i></p>
-				
-			</div>
-		</nav>
-    
-    <h1>MENTIONS LÉGALES</h1>
-    
-    <h2>1.   DENOMINATION SOCIALE</h2>
+<h2>1. DENOMINATION SOCIALE</h2>
 
-    <pre> 
+<pre>
     OKIMONO COPR.
     Siret : 000 000 000 00000
     Quelque part – Rue de Pas ici - 34000 MONTPELLIER 
     Tél : 06 00 00 00 00
     Directeur de publication : Groupe 4
-    </pre> 
-    
-    <h2>REALISATION DU SITE</h2>
+    </pre>
 
-    <pre>
+<h2>REALISATION DU SITE</h2>
+
+<pre>
     Conception graphique : Groupe 4
     Web design : Groupe 4
     Développement : Groupe 4
     </pre>
-    
-    <h2>2.   ACCEPTATION DES CONDITIONS D’UTILISATION</h2>
-    
-    <pre>
+
+<h2>2. ACCEPTATION DES CONDITIONS D’UTILISATION</h2>
+
+<pre>
     En contrepartie de l’accès, de la consultation et de l’utilisation du site OKIMONO, vous êtes tenu d’accepter les présentes clauses d’utilisation et de vous y conformer ainsi qu’aux lois et réglementations en vigueur. Si vous n’acceptez pas l’une quelconque de ces clauses, NE CONSULTEZ PAS CE SITE ET NE TELECHARGEZ AUCUN DOCUMENT DE CE SITE.
     </pre>
-    
-   <h2>3.   ENGAGEMENT PRIS PAR LE SITE</h2>
-    
-    <pre>
+
+<h2>3. ENGAGEMENT PRIS PAR LE SITE</h2>
+
+<pre>
     Le contenu du site respecte les lois en vigueur et notamment :
     La loi sur la liberté de la presse du 29 juillet 1881 modifiée de sorte qu’aucun écrit, image ou son à caractère diffamatoire, raciste ou révisionniste ne sera mis en ligne ;
     Conformément à l’article 227-24 du Code pénal relatif à la protection des mineurs, aucun message à caractère violent, pornographique ou portant gravement atteinte à la dignité humaine susceptible d’être vu ou perçu par un mineur ne sera mis en ligne ;
@@ -68,10 +37,10 @@
          
         gratuite et se fera dans un délai de trois jours de la réception de la demande. Cette réponse ne doit pas être plus longue que le texte en cause et ne peut en aucun cas dépasser deux cent lignes.
     </pre>
-     
-    <h2>4.   AVERTISSEMENT :</h2>
-    
-    <pre>
+
+<h2>4. AVERTISSEMENT :</h2>
+
+<pre>
     L’accès à ce site est réservé à la consultation des informations commerciales et techniques fournies par l’OKIMONO CORP. . Tout accès ou toute tentative d’accès à d’autres fichiers du système informatique de l’OKIMONO CORP.  ou à toute information contenue dans ce système quel qu’en soit le motif est strictement interdit.
     L’OKIMONO CORP. s’efforce au mieux de fournir sur son site Internet des informations exactes et précises.
     Les informations diffusées sur ce site Internet ne sont néanmoins fournies qu’à titre indicatif et ne revêtent aucun caractère contractuel. L’ OKIMONO CORP. ne peut en effet parfaitement garantir l’exactitude, la précision ou l’exhaustivité des informations mises à disposition sur ce site.
@@ -82,19 +51,19 @@
     L’OKIMONO CORP.  ne saurait être tenue pour responsable des dommages susceptibles de résulter de l’utilisation des informations diffusées sur ce site Internet et/ou de l’utilisation d’un produit auquel ces informations font référence. Il appartient à l’utilisateur de vérifier l’exactitude des informations fournies ainsi que leur utilisation.
         
     </pre>
-    
-    <h2>5.   LIMITATION DE RESPONSABILITÉ</h2>
-    
-    <pre>
+
+<h2>5. LIMITATION DE RESPONSABILITÉ</h2>
+
+<pre>
     L’OKIMONO CORP.  ne pourra être tenue pour responsable de tout dommage direct et/ou indirect résultant de l’utilisation faite par le client du site et/ou de toute information qu’il contient.
     Le site OKIMONO CORP.  peut renvoyer l’utilisateur à d’autres sites internet par le biais de liens hypertexte. Ces liens ont été insérés dans le site de l’OKIMONO CORP.  avec l’autorisation des titulaires des sites liés. En tout état de cause, l’ OKIMONO CORP.  ne saurait être responsable du contenu de ces sites, lesquels relèvent de l’entière responsabilité de leurs titulaires.
     Certains dangers sont inhérents à l’utilisation de l’internet et l’utilisateur est mis en garde quant à la nécessité de prendre en compte les risques potentiels (toute infection par virus d’ordinateur, tout bogue, tout ralentissement etc…) avant de procéder à la consultation du site OKIMONO CORP. 
     
     </pre>
-    
-    <h2>6.   PROPRIÉTÉ INTELLECTUELLE – DROIT D’AUTEUR – COPYRIGHT</h2>
-    
-    <pre>
+
+<h2>6. PROPRIÉTÉ INTELLECTUELLE – DROIT D’AUTEUR – COPYRIGHT</h2>
+
+<pre>
     La conception, la forme, le titre et l’ensemble des éléments contenus sur le site OKIMONO CORP.  sont protégés à l’échelle mondiale au titre du droit d’auteur et des marques.
     Droits d’auteur :
     Sauf mention contraire, toutes les informations sur ce serveur Internet et documents contenus dans le site ainsi que tous les éléments créés pour le site sont la propriété de l’OKIMONO CORP.  et sont protégés par les droits de propriété intellectuelle.
@@ -115,15 +84,15 @@
     Les visiteurs du site internet de l’OKIMONO CORP.  s’interdisent la collecte, la captation, la déformation ou l’utilisation des informations auxquelles ils ont accès.
     L’OKIMONO CORP.  poursuivra en justice toute tentative de détournement des documentations du site.  
     </pre>
-    
-    <h2>7.   LIENS HYPERTEXTES :</h2>
-    <pre>
+
+<h2>7. LIENS HYPERTEXTES :</h2>
+<pre>
     L’OKIMONO CORP.  décline formellement toute responsabilité quant aux contenus des sites vers lesquels elle offre des liens. Les éventuels liens proposés aux utilisateurs du site Internet de l’OKIMONO CORP.  le sont à titre de service. La décision d’activer les liens appartient exclusivement aux utilisateurs du site Internet de l’OKIMONO CORP. .
     Tout lien simple et/ou profond ou « framing » à destination du site de l’OKIMONO CORP.  est strictement interdit et en conséquence, aucun élément figurant sur une page du site Internet de l’OKIMONO CORP.  ne peut être partiellement ou totalement diffusé, transféré ou inséré sur un autre site Internet, ni servir à créer des produits dérivés, sauf autorisation expresse de l’ OKIMONO CORP. . Tout lien simple ou profond et/ou « framing » devra faire l’objet d’une autorisation expresse, préalable et écrite de l’OKIMONO CORP. .
     </pre>
 
-    <h2>8.   LE RESPECT DE VOTRE VIE PRIVÉE :</h2>
-    <pre>
+<h2>8. LE RESPECT DE VOTRE VIE PRIVÉE :</h2>
+<pre>
     L’OKIMONO CORP.  se préoccupe du respect de la vie privée et s’engage à protéger vos données personnelles. Nous utilisons les informations que vous nous transmettez pour honorer vos commandes et vous faire part d’informations susceptibles de vous intéresser.
     Que collectons-nous comme informations et comment nous les utilisons-nous ? Vous avez toujours le contrôle des informations que vous fournissez à l’OKIMONO CORP. . Nous recueillons deux types d’informations sur nos visiteurs :
     –	les informations personnelles (telles que le nom, l’adresse, le numéro de téléphone, l’adresse e- mail, …) que vous nous avez volontairement soumises et, – les informations statistiques et générales (telles que le nombre de visiteurs sur nos sites, les pages auxquelles ils accèdent, etc.). Ceci étant, notre site Internet reste accessible sans que l’utilisateur ait à révéler son identité ou donner des informations à caractère personnel.
@@ -143,16 +112,15 @@
     Les messages envoyés sur le réseau internet peuvent être interceptés. Ne divulguez pas d’informations personnelles sensibles. Si vous souhaitez nous communiquer des informations confidentielles, nous vous conseillons d’utiliser la voie postale.        
     </pre>
 
-    <h2>9.   DÉCLARATION À LA CNIL</h2>
-    <pre>
+<h2>9. DÉCLARATION À LA CNIL</h2>
+<pre>
     Conformément à la loi du 6 janvier 1978 modifiée par la loi du 6 août 2004 relative à l’informatique, aux fichiers et aux libertés, ainsi que son décret d’application du 17 juillet 1978 et à l’article 43 de la loi du 30 septembre 1986 modifiée, le site a fait l’objet d’une déclaration auprès de la Commission Nationale Informatique et Libertés (CNIL)
     Données fournies dans le cadre de la relation commerciale contractuelle Les données personnelles collectées sont destinées à fournir à l’utilisateur les produits et services proposés par ce site et ne seront pas utilisées à des fins non prévues par les présentes mentions légales. A cette fin, toutes les réponses demandées sont strictement nécessaires à la fourniture du produit ou service concerné. En cas de réponse incomplète ou d’absence d’une réponse, l’utilisateur s’expose à ne pas se voir fourni le produit ou service sollicité. Les messages électroniques et données nominatives envoyés à l’OKIMONO CORP.  peuvent être conservés tout au long de la durée strictement nécessaire à la gestion de la relation commerciale et, les éléments nécessaires à l’établissement de la preuve d’un droit ou d’un contrat peuvent être archivés.        
     </pre>
-    
-    <h2>10.   LOI APPLICABLE</h2>
-    <pre>
+
+<h2>10. LOI APPLICABLE</h2>
+<pre>
     Ce site a été conçu en France et son exploitation est assurée à partir de la France. L’OKIMONO CORP.  ne garantit d’aucune façon la légalité de l’accès ou de l’usage de son site et des contenus qui y figurent lorsque l’utilisateur y accède à partir d’autres pays que la France. La Société interdit l’accès à son site dans les pays où la législation en vigueur considère qu’il s’agit d’un accès illicite. Les utilisateurs qui passent outre le font à leurs risques et périls, et assument seuls les conséquences de leur non-respect de la loi applicable. Les présentes conditions d’utilisation ont été rédigées en français et la loi qui leur est applicable est la loi française, les règles relatives aux conflits de lois ne pouvant mettre en échec cette compétence de principe de la loi française et des tribunaux français.
     </pre>
 
-    </body>
-</html>
+<?php include('./footer.php'); ?>

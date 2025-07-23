@@ -1,233 +1,259 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
+
 /* Header (nav)*/
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px 0px;
-    background-color: rgba(255, 255,255, 0.3);
-    position: fixed;
-    top: 0;
-    z-index: 999999;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  width: 100%;
 }
-nav h1{
-    font-size: 20px; 
-    padding-left: 20px;
+
+nav h1 {
+  font-size: 20px;
+  padding-left: 20px;
 }
+
 nav .onglets {
-    display: flex;flex-wrap: wrap;
-}
-nav .onglets p{
-    font-size: 17px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-nav .onglets input{
-    margin: 8px;
-    padding: 15px;
-    border-radius: 30px;
-    border: none;
-    outline: none;
-    background-color: #f2f2f2;   
-}
-nav .onglets a{
-    text-decoration: none;
-    color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
 }
 
-figure, figure img{
-    margin: 0;
-    width: 100%;
+nav .onglets p {
+  font-size: 17px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
-a:link{
-    text-decoration: none;
+nav .onglets input {
+  margin: 8px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
 }
-a:visited{
-    color: #000;
+
+nav .onglets a {
+  text-decoration: none;
+  color: black;
+}
+
+figure,
+figure img {
+  margin: 0;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
 }
 
 @media (min-width: 980px) {
-	.nav-open, .nav-close {
-		display: none;
-	}
+
+  .nav-open,
+  .nav-close {
+    display: none;
+  }
 }
 
 @media (max-width: 980px) {
-	div.onglets{
-		flex-direction: column;
-	}
+  div.onglets {
+    flex-direction: column;
+  }
 
-	.nav-open, .nav-close {
-		position: absolute;
-		top: 8px;
-		right: 15px;
-		color: #000;
-		text-decoration: none;
-		font-size: 2em;
-		}
-		
-	.nav-open{
-		display: block;
-		}
-	.nav-close{
-		display: none;
-		}
-		
-	#contenu:target .nav-close{
-		display: block;
-		}
-	#contenu:target .nav-open{
-		display: none;
-		}
-		
-	div.onglets{
-		flex-direction: column;
-		position : absolute;
-		right: -300px;
-		background-color: rgb(205, 205, 205) ;
-		}
-		
-	#contenu:target div.onglets{
-		right: 0px;
-		top: 100px;
-		width: 400px;
-        height: 100vh;
-		justify-content: center;
-		text-align: center;
-		align-content: center;
-		transition-duration: 0.1s;
-		}	
+  .nav-open,
+  .nav-close {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    color: #000;
+    text-decoration: none;
+    font-size: 2em;
+  }
+
+  .nav-open {
+    display: block;
+  }
+
+  .nav-close {
+    display: none;
+  }
+
+  #contenu:target .nav-close {
+    display: block;
+  }
+
+  #contenu:target .nav-open {
+    display: none;
+  }
+
+  div.onglets {
+    flex-direction: column;
+    position: absolute;
+    right: -300px;
+    background-color: rgb(205, 205, 205);
+  }
+
+  #contenu:target div.onglets {
+    right: 0px;
+    top: 100px;
+    width: 400px;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    transition-duration: 0.1s;
+  }
 }
 
 /*Fin header (nav)*/
 
 /*Section Principale*/
 /*Acceuil*/
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-section p{
-    text-align: justify;
+section p {
+  text-align: justify;
 }
 
 /*Les div*/
 div figure img {
-    margin: 0;
-    width: auto;
-}
-div{
-    display: flex;
-    justify-content: center;
-}
-div div {
-    width: 50%;
+  margin: 0;
+  width: auto;
 }
 
 section div {
-    text-align: center;  
-    margin: 0px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+section div div {
+  width: 50%;
+}
+
+section div {
+  text-align: center;
+  margin: 0px 20px 20px 20px;
 }
 
 /*Fin des div*/
 
-section > figure{
-    width: 50%;
-    margin: 0;
+section>figure {
+  width: 50%;
+  margin: 0;
 }
 
-h3{
-    text-align: center;
-    margin: 5px;
+h3 {
+  text-align: center;
+  margin: 5px;
 }
 
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
 
-#center{
-    text-align: center ;
+#center {
+  text-align: center;
 }
+
 /*Fin acceuil*/
 
 /*Mentions légales*/
-pre{
-    background-color: #ccc;
+pre {
+  background-color: #ccc;
 }
+
 /*Fin mentions légales*/
 
 /*Contact*/
-form > fieldset > fieldset > div{
-   justify-content: left;
-   margin: 0;
-}
-form > fieldset > fieldset > div > label{
-    padding-left:25%;
-    justify-content: left;
-}
-form > fieldset > fieldset > div > label:first-child{
-    padding: 0;
+form>fieldset>fieldset>div {
+  justify-content: left;
+  margin: 0;
 }
 
-input[type=submit]{
-    font-size: 100px;
-}
-button{
-    padding: 0;
-    border: 0;
-    width: 100%;
-    background-color: #fff;
+form>fieldset>fieldset>div>label {
+  padding-left: 25%;
+  justify-content: left;
 }
 
-body > div > div > p > a > img {
-    width: 40px;
-    height: 40px;
+form>fieldset>fieldset>div>label:first-child {
+  padding: 0;
 }
 
-#here{
-   margin-top: 40px;
+input[type=submit] {
+  font-size: 100px;
 }
+
+button {
+  padding: 0;
+  border: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+body>div>div>p>a>img {
+  width: 40px;
+  height: 40px;
+}
+
+#here {
+  margin-top: 40px;
+}
+
 /*Fin contact*/
 
 /*Fin Section Principale*/
 
 
 /*Footer*/
-footer{
-    margin-top: 100px;
-    background-color:#000;
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px;
+footer {
+  margin-top: 100px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
 }
-footer .social-media{
-    display: flex;
+
+footer .social-media {
+  display: flex;
 }
-footer .social-media p{
-    margin-right: 15px;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    padding: 5px;
-    text-align: center;
-    width: 20px;
-    cursor: pointer;
+
+footer .social-media p {
+  margin-right: 15px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding: 5px;
+  text-align: center;
+  width: 20px;
+  cursor: pointer;
 }
 
 footer i {
-    color: white;
+  color: white;
 }
+
 /*Fin footer */
-
-
 
 .block2 {
   background-color: #eeeeee;
@@ -236,7 +262,7 @@ footer i {
 }
 
 .wrap {
-  margin: 50px auto 0 auto;
+  margin: 0 auto;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -247,12 +273,11 @@ footer i {
   width: 320px;
   height: 320px;
   margin: 10px;
-  background-color: #dddddd;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 15px;
   position: relative;
   cursor: pointer;
   transition: all 0.4s ease-out;
@@ -260,17 +285,7 @@ footer i {
   overflow: hidden;
   color: white;
   z-index: 1;
-}
-
-.tile::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 42, 42, 0.6);
-  z-index: -1;
+  background-color: orange;
 }
 
 .tile img {
@@ -283,15 +298,13 @@ footer i {
 .tile .text {
   position: absolute;
   padding: 30px;
-  height: calc(100% - 60px);
+  text-align: center;
 }
 
 .tile h1 {
-
   font-weight: 300;
   margin: 0;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  z-index: 99;
 }
 
 .tile h2 {
@@ -319,6 +332,7 @@ footer i {
   background-color: #afafaf;
   box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
   transform: scale(1.05);
+  background-color: green;
 }
 
 .tile:hover img {
@@ -328,31 +342,4 @@ footer i {
 .tile:hover .animate-text {
   transform: translateX(0);
   opacity: 1;
-}
-
-.tile:hover span {
-  opacity: 1;
-  transform: translateY(0px);
-}
-
-@media (max-width: 1000px) {
-  .wrap {
-    flex-direction: column;
-    width: 400px;
-  }
-}
-
-body>div>p,
-body>div>h2 {
-  width: 80%;
-  font-size: 23px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 35px;
-}
-
-body>div>h2 {
-  font-size: 28px;
-  padding-top: 50px;
 }
