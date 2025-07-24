@@ -1,4 +1,6 @@
-<?php include('./header.php'); ?>
+<?php 
+$base = '../';
+include('./header.php'); ?>
 
 <h1>MENTIONS LÉGALES</h1>
 

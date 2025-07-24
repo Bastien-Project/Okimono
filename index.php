@@ -1,13 +1,12 @@
-<?php $base = '';
+<?php 
+$base = '';
 include('./pages/header.php'); ?>
 
 <section>
 	<h2>Notre histoire</h2>
 	<div>
 		<div>
-			<figure>
 				<img src="images/cadre.png" alt="cadre">
-			</figure>
 		</div>
 		<div>
 			<p>
@@ -25,12 +24,6 @@ include('./pages/header.php'); ?>
 				interessé à son histoire, mais très peu connaissent la vérité. <br>
 			</p>
 		</div>
-	</div>
-	<div>
-		<p id="center">
-			Ils leur fallaient trouver la pierre de la stupidité en répondant à 4 questions, les voici et voici
-			leurs réponses.
-		</p>
 	</div>
 
 	<h3>Pourquoi tout le monde vénère t-il Chuck Norris, alors que Bob l'éponge fait mieux, il fait cuire des steaks
@@ -55,18 +48,16 @@ include('./pages/header.php'); ?>
 			</p>
 		</div>
 		<div>
-			<figure>
 				<img src="images/norrisbob.jpg" alt="norris vs bob">
-			</figure>
 		</div>
 	</div>
 
 	<h3>Pourquoi la pierre qui roule n'ammasse pas mousse ?</h3>
 	<div>
 		<div>
-			<figure>
+			
 				<img src="images/pierreMousse.png" alt="pierre mousse">
-			</figure>
+			
 		</div>
 		<div>
 			<p>

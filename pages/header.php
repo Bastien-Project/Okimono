@@ -17,13 +17,7 @@
             <a href="<?= $base ?>index.php">Accueil</a>
             <a href="<?= $base ?>pages/creation.php">Création</a>
             <a href="<?= $base ?>pages/contact.php">Contact</a>
-            <form>
-                <input type="search" placeholder="Rechercher">
-            </form>
-
         </div>
     </nav>
 
-    <figure>
-        <img src="<?= $base ?>images/fond.jpg" alt="bandeau">
-    </figure>
+    <img src="<?= $base ?>images/fond.jpg" alt="bandeau">
