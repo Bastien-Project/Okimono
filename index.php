@@ -14,7 +14,7 @@ include('./pages/header.php'); ?>
 				Il y a une partie concernant le sport automobile, j'adore depuis depuis les courses automobiles, la F1 et aussi le karting que je pratique en loisir. <br>
 				Une autre section concerne le ski, que je pratique depuis tout petit, et chaque année j'attend avec impatience l'hiver uniquement pour pouvoir aller skier. <br>
 				Un troisième sujet sur le code et la programation, avec en lien tout mes projets de développement web. <br>
-				Et enfin un dernier thème sur le bois. Mes création, du croquis à la réalisation finale, meubles ou simple objet de décoration.
+				Et enfin un dernier thème, et la raison principale de ce site, c'est le bois. Mes créations, du croquis à la réalisation finale, des meubles ou de simples objets de décoration.
 			</p>
 		</div>
 	</div>
@@ -50,44 +50,53 @@ include('./pages/header.php'); ?>
 </section>
 
 <!----------------- tuile presentation environement -------------------->
-<div class="block2">
+<div class="blockTiles">
 	<div class="wrap">
-		<div class="tile">
-			<div class="img-coin haut-gauche"></div>
-			<div class="text">
-				<h1>Sport automobile</h1>
-				<h2 class="animate-text">La F1 et le karting</h2>
-				<p class="animate-text">Je suis un fan de Formule 1 depuis petit. Et arrivé à l'adolescence, j'ai commencé à faire du karting.</p>
-			</div>
-		</div>
 
-
-		<div class="tile">
-			<div class="img-coin haut-droit"></div>
-			<div class="text">
-				<h1>Ski</h1>
-				<h2 class="animate-text">Passion pour la neige</h2>
-				<p class="animate-text">Je pratique le ski quasiment tous les hivers depuis ma naissance. Il n'y a pas une année où je ne suis pas allé skier.</p>
+		<a href="./pages/sasp.php">
+			<div class="tile">
+				<div class="img-coin haut-gauche"></div>
+				<div class="text">
+					<h1>Sport automobile</h1>
+					<h2 class="animate-text">La F1 et le karting</h2>
+					<p class="animate-text">Je suis un fan de Formule 1 depuis petit. Et arrivé à l'adolescence, j'ai commencé à faire du karting.</p>
+				</div>
 			</div>
-		</div>
+		</a>
 
-		<div class="tile">
-			<div class="img-coin bas-gauche"></div>
-			<div class="text">
-				<h1>Programation</h1>
-				<h2 class="animate-text">Développement web et logiciel</h2>
-				<p class="animate-text">Je suis passionné par le développement. Je passe mon temps libre à coder et à créer des projets décalés ou plus sérieux.</p>
+		<a href="./pages/sasp.php">
+			<div class="tile">
+				<div class="img-coin haut-droit"></div>
+				<div class="text">
+					<h1>Ski</h1>
+					<h2 class="animate-text">Passion pour la neige</h2>
+					<p class="animate-text">Je pratique le ski quasiment tous les hivers depuis ma naissance. Il n'y a pas une année où je ne suis pas allé skier.</p>
+				</div>
 			</div>
-		</div>
+		</a>
 
-		<div class="tile">
-			<div class="img-coin bas-droit"></div>
-			<div class="text">
-				<h1>Menuiserie</h1>
-				<h2 class="animate-text">Mes créations</h2>
-				<p class="animate-text">Je réalise des meubles sur mesure et des objets de décoration en bois. Je travaille la majorité du temps avec du bois récupéré quelque part, non acheté en magasin.</p>
+		<a href="./pages/sasp.php">
+			<div class="tile">
+				<div class="img-coin bas-gauche"></div>
+				<div class="text">
+					<h1>Programation</h1>
+					<h2 class="animate-text">Développement web et logiciel</h2>
+					<p class="animate-text">Je suis passionné par le développement. Je passe mon temps libre à coder et à créer des projets décalés ou plus sérieux.</p>
+				</div>
 			</div>
-		</div>
+		</a>
+
+		<a href="./pages/creation.php">
+			<div class="tile">
+				<div class="img-coin bas-droit"></div>
+				<div class="text">
+					<h1>Menuiserie</h1>
+					<h2 class="animate-text">Mes créations</h2>
+					<p class="animate-text">Je réalise des meubles sur mesure et des objets de décoration en bois. Je travaille la majorité du temps avec du bois récupéré quelque part, non acheté en magasin.</p>
+				</div>
+			</div>
+		</a>
+
 	</div>
 </div>
 

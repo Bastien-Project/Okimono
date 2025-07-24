@@ -15,7 +15,8 @@
         <a class="nav-close" href="#"> <i class="fas fa-times"></i> </a>
         <div class="onglets">
             <a href="<?= $base ?>index.php">Accueil</a>
-            <a href="<?= $base ?>pages/creation.php">Création</a>
+            <a href="<?= $base ?>pages/creation.php">Menuiserie</a>
+            <a href="<?= $base ?>pages/sasp.php">Autres passions</a>
             <a href="<?= $base ?>pages/contact.php">Contact</a>
         </div>
     </nav>
