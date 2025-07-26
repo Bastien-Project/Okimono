@@ -148,7 +148,7 @@ h3 {
 }
 
 .blockTiles {
-  background-color: #eeeeee;
+  background-color: #eee;
   padding: 40px 0;
 }
 
@@ -264,12 +264,40 @@ h3 {
 
 /*Fin acceuil*/
 
-/*Mentions légales*/
-pre {
-  background-color: #ccc;
+/* Autres passions */
+.autresPassions div:nth-child(even) {
+  background-color: #eee
 }
 
-/*Fin mentions légales*/
+.autresPassions h2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.autresPassions p {
+  text-align: center;
+  margin: 5px 0 15px 0;
+  display: block;
+}
+
+.autresPassions p a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.autresPassions p a:hover {
+  color: #ffb87b;
+  text-decoration: underline;
+}
+
+.sportAutomobile, .ski, .code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
 
 /* Contact */
 .contactDiv {
@@ -330,6 +358,11 @@ button#submit:hover {
 
 /* Fin contact */
 
+/*Mentions légales*/
+pre {
+  background-color: #ccc;
+}
+/*Fin mentions légales*/
 
 /*Fin Section Principale*/
 
