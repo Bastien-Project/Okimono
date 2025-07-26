@@ -86,7 +86,7 @@ include('./pages/header.php'); ?>
 			</div>
 		</a>
 
-		<a href="./pages/creation.php">
+		<a href="./pages/menuiserie.php">
 			<div class="tile">
 				<div class="img-coin bas-droit"></div>
 				<div class="text">
