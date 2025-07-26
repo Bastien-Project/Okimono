@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Okimono 置物</title>
-    <link rel="stylesheet" href="<?= $base ?>stylesheets/styleee.css" />
+    <link rel="stylesheet" href="<?= $base ?>stylesheets/style.css" />
     <script src="https://kit.fontawesome.com/8a2d35d848.js" crossorigin="anonymous"></script>
 </head>
 
