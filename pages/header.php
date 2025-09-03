@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <title>Okimono 置物</title>
     <link rel="stylesheet" href="<?= $base ?>stylesheets/style.css" />
+    <link rel="stylesheet" href="<?= $base ?>stylesheets/slider.css" />
+    <script defer src="<?= $base ?>script/script.js"></script>
+    <script defer src="<?= $base ?>script/slider.js"></script>
     <script src="https://kit.fontawesome.com/8a2d35d848.js" crossorigin="anonymous"></script>
 </head>
 

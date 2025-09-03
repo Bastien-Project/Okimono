@@ -132,7 +132,7 @@ section>img {
 
 section p {
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   align-items: center;
   justify-content: center;
   text-align: justify;
@@ -265,18 +265,78 @@ h3 {
 /*Fin acceuil*/
 
 /* Menuiserie */
-.realisations div, .projets div {
+.realisations div,
+.projets div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  margin: 20px 0;
 }
+
 .realisations div:nth-child(even) {
   background-color: #eee;
 }
 
 .projets div:nth-child(even) {
   background-color: #eee;
+}
+
+.read-more {
+  color: #195faa;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  font-weight: bold;
+}
+
+.hidden-text {
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 10px;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.hidden-text:nth-child(odd) {
+  background-color: #fff;
+}
+
+.hidden-text:nth-child(even) {
+  background-color: #eee;
+}
+
+.hidden-text.is-open {
+  max-height: 800px;
+}
+
+.hidden-text.is-open p {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.creation-img {
+  margin: 10px;
+  height: 500px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.toggle-btn, .noSlider {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #846fa0, #e6a6c7, #ffb87b);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background: linear-gradient(to right, #e6a6c7, #ffb87b);
 }
 
 /* Fin menuiserie */
