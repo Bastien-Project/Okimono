@@ -1,5 +1,5 @@
 	<footer>
-	    <p>&copy; Contactez nous au 06 00 00 00 00</p>
+	    <p>&copy; Contactez-moi au 06 00 00 00 00</p>
 
         <p><a href="ML.php">Mentions légales</a></p>
 
