@@ -12,8 +12,8 @@ include("./header.php"); ?>
 </style>
 <p>
     Pour toutes demandes merci de me contacter par mail ci-dessous. <br>
-    <span>Le formulaire de contact est en cours de développement, vous pouvez m'envoyer un mail à l'adresse suivante :
-    <a href="mailto:contact@okimono.com">contact@okimono.com</a></span>
+    <span>Le formulaire de contact est en cours de développement, ne pas écrire, ça ne sert à rien.</span><!--, vous pouvez m'envoyer un mail à l'adresse suivante :
+    <a href="mailto:contact@okimono.com">contact@okimono.com</a></span-->
 </p>
 
     <div class="contactDiv">
