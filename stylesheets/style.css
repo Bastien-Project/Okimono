@@ -132,7 +132,7 @@ section>img {
 
 section p {
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: justify;
@@ -265,12 +265,30 @@ h3 {
 /*Fin acceuil*/
 
 /* Menuiserie */
+section h1#realisations, section h1#projets {
+  text-align: center;
+  margin: 15px 20% 0 20%;
+  font-size: xx-large;
+  background: linear-gradient(to right, #846fa0, #e6a6c7, #ffb87b);
+  color: #8b4513;
+}
+section h1#projets {
+  margin-top : 20px;
+}
+section.projets{
+  border-top: 2rem solid red;
+}
+
 .realisations div,
 .projets div {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px 0;
+}
+
+.realisations div:nth-last-child(1), .projets div:nth-last-child(1) {
+  margin-bottom: 0;
 }
 
 .realisations div:nth-child(even) {
@@ -460,6 +478,7 @@ footer {
 
 footer .social-media {
   display: flex;
+  flex-direction: row;
 }
 
 footer .social-media p {
