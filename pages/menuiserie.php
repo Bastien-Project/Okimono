@@ -151,6 +151,10 @@ function renderCreation($title = '', $shortDescription = '', $longDescription = 
             renderCreation(
                 title: "Range couvert",
                 shortDescription: "Il fallait un range couvert mais impossible d'en trouver un avec les bonnes dimensions, alors j'en ai fait un sur mesure.",
+                imagesRealisations: [
+                    ["src" => "../images/creations/5_1_range_couvert.jpg", "alt" => "Range couvert"],
+                    ["src" => "../images/creations/5_2_range_couvert_rempli.jpg", "alt" => "Range couvert avec les couverts"]
+                ],
                 imagesPlans: [
                     ["src" => "../images/plans/5_1_range_couvert_ebauche.jpg", "alt" => "Première ébauche du range couvert"],
                     ["src" => "../images/plans/5_2_range_couvert.jpg", "alt" => "Plans définitifs du range couvert"]
