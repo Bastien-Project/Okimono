@@ -381,6 +381,7 @@ function renderCreation($title = '', $shortDescription = '', $longDescription = 
                     ["src" => "../images/creations/20_3_vide_poche_fini.jpg", "alt" => "Vide poche fini"]
                 ],
                 imagesPlans: [
+                    ["src" => "../images/plans/20_4_vide_poche_stl.jpg", "alt" => "Plan du vide poche en 3D"],
                     ["src" => "../images/plans/20_1_vide_poche_ebauche.jpg", "alt" => "Première ébauche du vide poche"],
                     ["src" => "../images/plans/20_2_vide_poche_dimensions.jpg", "alt" => "Dimensions des planches du vide poche"],
                     ["src" => "../images/plans/20_3_vide_poche_decoupes.jpg", "alt" => "Decoupes prévues dans la planche pour le vide poche"]
