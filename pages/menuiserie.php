@@ -24,7 +24,7 @@ function renderCreation($title = '', $shortDescription = '', $longDescription = 
             <div class="slider">
                 <?php foreach ($imagesRealisations as $index => $image): ?>
                     <div class="slide<?= $index === 0 ? ' active' : ''; ?>">
-                        <img src="<?= $image['src']; ?>" alt="<?= $image['alt']; ?>">
+                        <img src="<?= $image['src']; ?>" loading="lazy" alt="<?= $image['alt']; ?>">
                     </div>
                 <?php endforeach; ?>
             </div>
@@ -53,7 +53,7 @@ function renderCreation($title = '', $shortDescription = '', $longDescription = 
                 <div class="slider">
                     <?php foreach ($imagesPlans as $index => $image): ?>
                         <div class="slide<?= $index === 0 ? ' active' : ''; ?>">
-                            <img src="<?= $image['src']; ?>" alt="<?= $image['alt']; ?>">
+                            <img src="<?= $image['src']; ?>" loading="lazy" alt="<?= $image['alt']; ?>">
                         </div>
                     <?php endforeach; ?>
                 </div>
